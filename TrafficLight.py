@@ -1,6 +1,4 @@
-from gpiozero import LED, TrafficLights
-from gpiozero import Button
-from gpiozero import Buzzer
+from gpiozero import LED, TrafficLights, Button, Buzzer
 from time import sleep
 
 traffic_light = TrafficLights(21,20,12)
