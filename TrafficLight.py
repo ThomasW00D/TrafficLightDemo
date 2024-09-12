@@ -4,9 +4,6 @@ from gpiozero import Buzzer
 from time import sleep
 
 traffic_light = TrafficLights(21,20,12)
-#led_red = LED(21)
-#led_yellow = LED(20)
-#led_green = LED(12)
 button = Button(26)
 buzzer = Buzzer(1)
 
